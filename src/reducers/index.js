@@ -1,3 +1,5 @@
+import { combineReducers } from "redux";
+
 const currentCount = (state = 0, action) => {
   if (action.type === "INCREASE_COUNTER") {
     return {
