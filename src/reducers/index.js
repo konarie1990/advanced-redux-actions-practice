@@ -2,15 +2,13 @@ import { combineReducers } from "redux";
 
 const currentCount = (state = 0, action) => {
   if (action.type === "INCREASE_COUNTER") {
-    return {
-      count: state.count + 1
-    };
+    return state + 1;
   }
+
   if (action.type === "DECREASE_COUNTER") {
-    return {
-      count: state.count - 1
-    };
+    return state - 1;
   }
+
   return state;
 };
 
