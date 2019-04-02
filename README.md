@@ -156,18 +156,25 @@ View this video to see how the app should work once you are done coding. [Video]
   - import `setTemp` action
   - map prop `set` to action `setTemp`
 - VideoTextBoxContainer.js
+
   - import `setVideoURL` action
   - map prop `set` to action `setVideoURL`
+
 - SortUsersContainer.js
+
   - import `setCurrentUserSort` action
   - map prop `set` to action `setCurrentUserSort`
+
 - ScaleVideoContainer.js
+
   - import `setVideoScale` action
   - map prop `set` to action `setVideoScale`
+
 - ShowModalContainer.js
   - import `setIsLoading` action
   - map prop `setIsLoading` to action `setIsLoading`Show
-- ModalContainer.js
+
+* ModalContainer.js
   - import `setIsLoading` action
   - map prop `setIsLoading` to action `setIsLoading`
 

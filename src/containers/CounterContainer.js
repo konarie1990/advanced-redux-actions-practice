@@ -3,11 +3,12 @@ import Counter from "../components/Counter";
 
 function mapStateToProps(state) {
   return {
-    count: state.currenCount
+    count: state.currentCount
   };
 }
 
-export default connect(
+const CounterContainer = connect(
   mapStateToProps,
   null
 )(Counter);
+export default CounterContainer;

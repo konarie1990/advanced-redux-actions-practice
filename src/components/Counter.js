@@ -1,10 +1,6 @@
-import React from 'react';
+import React from "react";
 
 function Counter(props) {
-  return (
-      <div>
-        Counter: {props.count}
-      </div>
-  );
+  return <div>Counter: {props.count.toString()}</div>;
 }
 export default Counter;

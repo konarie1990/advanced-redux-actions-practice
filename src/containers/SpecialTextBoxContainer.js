@@ -4,13 +4,14 @@ import SpecialTextBox from "../components/SpecialTextBox";
 
 const mapDispatchToProps = dispatch => {
   return {
-    set: txt => {
-      dispatch(setSpecialText(txt));
+    set: text => {
+      dispatch(setSpecialText(text));
     }
   };
 };
 
-export default connect(
+const SpecialTextBoxContainer = connect(
   null,
   mapDispatchToProps
 )(SpecialTextBox);
+export default SpecialTextBoxContainer;
